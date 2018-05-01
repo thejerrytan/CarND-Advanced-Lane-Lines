@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[binary_thresholding_uwarped_with_polygon_straight_lines1]: ./output_images/binary_thresholding_uwarped_with_polygon_straight_lines1.jpg "binary_thresholding_uwarped_with_polygon_straight_lines1"
+[binary_thresholding_uwarped_with_polygon_straight_lines1]: ./output_images/binary_thresholding_unwarped_with_polygon_straight_lines1.jpg "binary_thresholding_uwarped_with_polygon_straight_lines1"
 [binary_thresholding_unwarped_with_polygon_straight_lines2]: ./output_images/binary_thresholding_unwarped_with_polygon_straight_lines2.jpg "binary_thresholding_unwarped_with_polygon_straight_lines2"
 [binary_thresholding_unwarped_with_polygon_test1]: ./output_images/binary_thresholding_unwarped_with_polygon_test1.jpg "binary_thresholding_unwarped_with_polygon_test1"
 [binary_thresholding_unwarped_with_polygon_test2]: ./output_images/binary_thresholding_unwarped_with_polygon_test2.jpg "binary_thresholding_unwarped_with_polygon_test2"
@@ -162,7 +162,7 @@ To demonstrate this step, I will describe how I apply the distortion correction 
 ![alt text][undistorted_test3]
 ![alt text][undistorted_test4]
 ![alt text][undistorted_test5]
-![alt text][undistorted_text6]
+![alt text][undistorted_test6]
 
 Below is the relevant code. I apply the camera matrix and distortion coefficients to cv2.undistort() function to arrive at a undistorted image.
 
